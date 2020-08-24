@@ -10,54 +10,42 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Hello there 👋
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Talk me about physics, electronics, software.
+        </p>
+        
+        <p className="description">
+          coffee & startups.
         </p>
 
+        <p className="description">
+          <code>Argentina 📌</code>
+        </p>
+
+
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.linkedin.com/in/franco-scucchiero-8455b0159/" className="card">
+            <h3>Linkedin &rarr;</h3>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="https://github.com/scucchiero" className="card">
+            <h3>Github &rarr;</h3>
           </a>
         </div>
-      </main>
-
-      <footer>
+        <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="mailto:scucchiero@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          scucchiero@gmail.com
         </a>
       </footer>
+
+      </main>
 
       <style jsx>{`
         .container {
@@ -116,7 +104,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 3.4rem;
         }
 
         .title,
@@ -125,7 +113,7 @@ export default function Home() {
         }
 
         .description {
-          line-height: 1.5;
+          margin: 5px;
           font-size: 1.5rem;
         }
 
