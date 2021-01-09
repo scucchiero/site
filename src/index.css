@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=News+Cycle&display=swap");
+:root {
+  font-size: 1rem;
+}
+
+#root,
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #070712;
+  color: #060607;
+  font-family: "News Cycle", sans-serif;
+}
+
+canvas,
+.canvas > div {
+  z-index: 1;
+}
+
+.loading {
+  padding: 10px;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.scene {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  padding: 40px;
+  min-height: 400px;
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.4 );
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur( 2.0px );
+  -webkit-backdrop-filter: blur( 2.0px );
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1;
+  color: black
+}
+
+.tagline {
+  margin: 0;
+  line-height: 1;
+  font-size: .8rem
+}
+
+.find-container > a{
+  display: block;
+  color: #033152 !important;
+  width: min-content
+}
