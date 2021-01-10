@@ -3,7 +3,7 @@
   font-size: 1rem;
 }
 
-#root,
+#__next,
 html,
 body {
   height: 100%;
@@ -20,11 +20,6 @@ canvas,
   z-index: 1;
 }
 
-.loading {
-  padding: 10px;
-  transform: translate3d(-50%, -50%, 0);
-}
-
 .scene {
   position: absolute;
   width: 100%;
@@ -34,7 +29,6 @@ canvas,
 .container {
   position: relative;
   height: 100%;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +36,8 @@ canvas,
 }
 
 .inner-container {
-  padding: 40px;
+  margin: 16px;
+  padding: 32px;
   min-height: 400px;
   background: rgba( 255, 255, 255, 0.5 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.4 );
